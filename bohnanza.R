@@ -1,6 +1,6 @@
 library(tidyverse)
 library(assertthat)
-
+ 
 
 b_data <- read_csv("bohnanza_cards.csv")
 total_cards <- sum(b_data$Frequency)
